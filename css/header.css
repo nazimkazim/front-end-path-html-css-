@@ -78,5 +78,55 @@
 
 li:nth-child(5),li:nth-child(6) {
   width: 60px;
+}
 
+.header-slogan-container {
+  min-width: 200px;
+  min-height: 150px;
+/*   background-color: teal; */  
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+
+.header-slogan-text {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+
+.header-slogan-dot {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Roboto;
+  color: #FF0000;
+}
+
+.header-slogan-text.subtext {
+  margin-top: 10px;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  height: 40px;
+  background-color: #FF0000;
+  position: absolute;
+  top: 600px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  left: 300px;
+  padding: 10px 30px;
+  font-weight: 700;
+  color: white;
+  border-radius: 7px;
 }
