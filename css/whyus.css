@@ -1,0 +1,15 @@
+.why-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  min-height: 400px;
+}
+
+.why-us-box {
+  width: 300px;
+  min-height: 200px;
+  background-color: beige;
+  padding: 15px;
+  box-sizing: border-box;
+}
