@@ -1,9 +1,70 @@
 .header-large.black {
   font-family: Roboto;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 32px;
+  display: block;
+  text-transform: uppercase;
 }
 
 .black {
   color: black;
+}
+
+.link-button.red {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+.red {
+  color: red;
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mr-3 {
+  margin-right: 30px;
+}
+
+.mr-4 {
+  margin-right: 40px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.ml-3 {
+  margin-left: 30px;
+}
+
+.ml-4 {
+  margin-left: 40px;
 }

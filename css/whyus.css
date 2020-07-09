@@ -9,7 +9,12 @@
 .why-us-box {
   width: 300px;
   min-height: 200px;
-  background-color: beige;
+  /* background-color: beige; */
   padding: 15px;
   box-sizing: border-box;
+}
+
+.why-us-box p {
+  font-size: 18px;
+  font-family: Roboto;
 }

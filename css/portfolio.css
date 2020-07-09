@@ -1,0 +1,33 @@
+.portfolio-section {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  min-height: 300px;
+  /* background-color: #F7F8FA; */
+  /* background-color: beige; */
+}
+
+.portfolio-section-half {
+  display: flex;
+  min-height: 100%;
+  width: 50%;
+  /* background-color: blueviolet; */
+}
+.portfolio-section-half img {
+  width: 900px;
+  margin-left: 250px;
+  overflow: hidden;
+}
+
+.portfolio-section-half-left {
+  max-width: 400px;
+  height: 300px;
+  /* background-color: chartreuse; */
+  padding: 5px;
+}
+
+.portfolio-section-half-left-text {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
