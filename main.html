@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,33 +38,39 @@
     <span class="header-large black">peace</span>
     <span class="header-large black">of mind</span>
     <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget suscipit lacus, quis mattis mauris.</p>
-    <p class="mt-2"><a class="link-button red">Learn more &#8594;</a></p>
+    <p class="mt-2"><a class="link-button red">more &#8594;</a></p>
   </div>
   <div class="why-us-box">
     <span class="header-large black">free</span>
     <span class="header-large black">actually free</span>
     <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget suscipit lacus, quis mattis mauris.</p>
-    <p class="mt-2"><a class="link-button red">Learn more &#8594;</a></p>
+    <p class="mt-2"><a class="link-button red">more &#8594;</a></p>
   </div>
   <div class="why-us-box">
     <span class="header-large black">simple</span>
     <span class="header-large black">payments</span>
     <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget suscipit lacus, quis mattis mauris.</p>
-    <p class="mt-2"><a class="link-button red">Learn more &#8594;</a></p>
+    <p class="mt-2"><a class="link-button red">more &#8594;</a></p>
   </div>
 </section>
 <section class="portfolio-section">
   <div class="portfolio-section-half">
-      <img src="./images/laptop.jpg"/>
+      <div class="laptop-container" w3-include-html="laptop.html"></div>
   </div>
   <div class="portfolio-section-half">
-    <div class="portfolio-section-half-left mt-4 ml-4">
+    <div class="portfolio-section-half-right">
       <span class="header-large black">portfolio</span>
       <span class="header-slogan-text subtext">We are small but stong team</span>
       <p class="portfolio-section-half-left-text mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget suscipit lacus, quis mattis mauris.</p>
       <p class="portfolio-section-half-left-text mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget suscipit lacus, quis mattis mauris.</p>
+      <p class="mt-2"><a class="link-button red">more &#8594;</a></p>
     </div>
   </div>
 </section>
+
+<script>
+w3IncludeHTML();
+</script>
+
 </body>
 </html>

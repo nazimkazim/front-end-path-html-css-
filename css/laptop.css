@@ -1,0 +1,43 @@
+#Keyboard {
+  animation: keyboard 3s ease-in-out infinite;
+}
+
+#laptop {
+  animation: laptop 3s ease-in-out infinite;
+}
+
+#extrabuttons {
+  animation: extrabuttons 3s ease-in-out infinite;
+}
+
+
+
+@keyframes keyboard {
+  from {
+    transform: translateY(30%);
+  } 
+  
+  to {
+    transform: translateY(0);
+  } 
+}
+
+@keyframes laptop {
+  from {
+    transform: translateY(30%);
+  } 
+  
+  to {
+    transform: translateY(0);
+  } 
+}
+
+@keyframes extrabuttons {
+  from {
+    transform: rotate(30deg);
+  } 
+  
+  to {
+    transform: rotate(0deg);
+  } 
+}

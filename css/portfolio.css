@@ -9,18 +9,16 @@
 
 .portfolio-section-half {
   display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100%;
   width: 50%;
   /* background-color: blueviolet; */
 }
-.portfolio-section-half img {
-  width: 900px;
-  margin-left: 250px;
-  overflow: hidden;
-}
 
-.portfolio-section-half-left {
-  max-width: 400px;
+
+.portfolio-section-half-right {
+  max-width: 600px;
   height: 300px;
   /* background-color: chartreuse; */
   padding: 5px;
@@ -29,5 +27,13 @@
 .portfolio-section-half-left-text {
   font-size: 18px;
   font-family: Roboto;
+}
+
+.laptop-container {
+  width: 400px;
+}
+
+.laptop-container svg {
+  width: 100%;
 }
 
