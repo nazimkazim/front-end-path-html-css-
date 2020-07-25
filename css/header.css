@@ -122,4 +122,11 @@ li:nth-child(5),li:nth-child(6) {
   font-weight: 700;
   color: white;
   border-radius: 7px;
+  transition: ease-in-out 0.8s;
+  transform: scale(0.96);
+  cursor: pointer;
+}
+
+.header-button:hover {
+  transform: scale(1.03);
 }

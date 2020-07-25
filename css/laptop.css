@@ -1,13 +1,21 @@
-#Keyboard {
-  animation: keyboard 3s ease-in-out infinite;
+.laptop-container {
+  min-width: 400px;
 }
 
-#laptop {
-  animation: laptop 3s ease-in-out infinite;
+.laptop-container svg {
+  width: 100%;
 }
 
-#extrabuttons {
-  animation: extrabuttons 3s ease-in-out infinite;
+.keyboard {
+  animation: keyboard 3s ease-in-out;
+}
+
+/* .laptop {
+  animation: laptop 3s ease-in-out;
+} */
+
+.extrabuttons {
+  animation: extrabuttons 3s ease-in-out;
 }
 
 
@@ -24,7 +32,7 @@
 
 @keyframes laptop {
   from {
-    transform: translateY(30%);
+    transform: translateY(20%);
   } 
   
   to {
@@ -34,10 +42,10 @@
 
 @keyframes extrabuttons {
   from {
-    transform: rotate(30deg);
+    transform: rotateZ(30deg);
   } 
   
   to {
-    transform: rotate(0deg);
+    transform: rotateZ(0deg);
   } 
 }
