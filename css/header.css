@@ -63,6 +63,13 @@
  */  list-style: none;
   text-transform: uppercase;
   font-weight: 700;
+  transition: ease-in-out 0.8s;
+  cursor: pointer;
+}
+
+.header-nav-bar-right-list li:hover {
+  background-color: #ffffff;
+  border-radius: 7px;
 }
 
 .header-nav-bar-right-list li img {
