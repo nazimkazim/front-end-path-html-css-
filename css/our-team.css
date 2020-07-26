@@ -10,10 +10,10 @@
 
 
 .our-team-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
   /* background-color: cornflowerblue; */
   width: 72%;
+  flex-wrap: wrap;
   height: 150px;
 }
 
