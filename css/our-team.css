@@ -87,3 +87,8 @@
   width: 268px;
   text-align: left;
 }
+
+.our-team-button-container {
+  align-self: flex-end;
+  margin-right: 400px;
+}

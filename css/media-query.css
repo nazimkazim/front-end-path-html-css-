@@ -1,0 +1,68 @@
+@media screen and (max-width: 375px) {
+  .header {
+    background-image: url("../images/bg-img-75-less.jpg") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    min-height: 300px;
+    width: 100%;
+  }
+  .header-slogan-container {
+    top: 200px;
+    left: 80px;
+  }
+
+  .header-nab-bar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-slogan-text {
+    font-size: 28px;
+  }
+
+  .header-nav-bar-right {
+    display: none;
+  }
+
+  .header-nav-bar-left {
+    width: 100%;
+  }
+
+  .header-button {
+    position: absolute;
+    left: 100px !important;
+    top: 450px;
+  }
+
+  .why-us-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .portfolio-section {
+    padding: 0;
+  }
+
+  .portfolio-section-half {
+    padding: 15px;
+  }
+
+  .our-team-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .our-team-header {
+    margin-left: 30px;
+  }
+
+  .our-team-container {
+    width: 90%;
+  }
+
+  .our-team-item {
+    margin-bottom: 15px;
+  }
+}
